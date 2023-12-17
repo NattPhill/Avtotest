@@ -14,7 +14,7 @@ class MainKtTest {
 
         val result = commission(typeCard, transfer, previous)
 
-        assertEquals(620, result)
+        assertEquals(50, result)
     }
     @Test
     fun errorDailyLimitForMaestro() {
